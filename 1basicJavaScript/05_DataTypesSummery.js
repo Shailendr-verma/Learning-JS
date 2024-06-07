@@ -42,3 +42,25 @@
 //  }
 
 //  console.log(typeof null);
+
+// lecture 12;
+
+// Stack (premitive) give copy     nonPremitive (HEAP)-give refrence;
+let myyoutubename   = "shailendra.com";
+let anothername =myyoutubename
+
+anothername ="cchai or cofe";
+
+console.log(anothername);
+console.log(myyoutubename);
+
+let user ={
+    email:"user@gmal.com",
+    userupi: "user@ybl",
+}
+
+let user2 =user
+user2.email ="verma@gmail.com"
+
+console.log(user.email);
+console.log(user2.email);
