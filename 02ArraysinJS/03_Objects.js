@@ -1,16 +1,16 @@
 // Object
 
-const mySum= Symbol("key1")
+const mySum = Symbol("key1")
 
 
-const jsUser ={
+const jsUser = {
     name: "shailendra",
-    age :18,
-    "full name" :"shailendra verma ",
-    email : "shailednr@gmail.com",
-    location : "bhopal",
-    mySum :"mykey1",
-    [mySum] :"mykey1",
+    age: 18,
+    "full name": "shailendra verma ",
+    email: "shailednr@gmail.com",
+    location: "bhopal",
+    mySum: "mykey1",
+    [mySum]: "mykey1",
 
     // [] user to refer symbol i output
 }
@@ -21,19 +21,19 @@ const jsUser ={
 // console.log(jsUser["mySum"]);
 
 
-jsUser.email ="shailendragpt.com"
+jsUser.email = "shailendragpt.com"
 // Object.freeze(jsUser)
 
-jsUser.email ="shailendravscode.com"
+jsUser.email = "shailendravscode.com"
 
 // console.log(jsUser)
 
 
-jsUser.greeting = function(){
+jsUser.greeting = function () {
     console.log("hello js user ");
 }
 
-jsUser.greetingtwo = function(){
+jsUser.greetingtwo = function () {
     console.log(`hello js user ${this.name}`);
 }
 
