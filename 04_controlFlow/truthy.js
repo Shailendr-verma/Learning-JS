@@ -21,5 +21,23 @@ if(userEmail.length === 0){
 }         
 
 
+// Nullish Coalescing Operactor (??) : null operator
+let val1;
+val1 = 5 ?? 10
+console.log(val1);
+val1 =null ?? 5
+console.log(val1);
+val1 = undefined ?? 5
+console.log(val1);
+val1 =null?? 15 ?? 10
+console.log(val1);
 
+// val1 =console.log("this is true") ?? console.log("this si false");
+// Ternirary operator
+
+// consition ? true :false 
+
+const price =180
+
+price >40 ? console.log("yes") : console.log("no");
 
