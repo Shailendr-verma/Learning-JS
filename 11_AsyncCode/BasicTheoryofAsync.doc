@@ -1,0 +1,22 @@
+javascript is a synchronous langauge 
+
+default javascript 
+
+// single thread 
+
+execution context 
+execute the code line by line 
+1 console log 1
+2 console.log 2 
+
+ /* Each operation lates for last one to complete before executing *\
+
+1 Blocking code vs  2 Non Blocking code 
+
+1 Block the flow of programme 
+ 2 Does not block execution 
+
+ 1 read file Sync 
+
+ 2 read file Async 
+ 
