@@ -12,6 +12,9 @@
 object literal
 
 - constructor function 
+Always give new instance from value when pass argument 
+
+
 - prototypes 
 - classes
 - Intesces(new ,this )
