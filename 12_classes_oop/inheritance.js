@@ -1,11 +1,11 @@
 class user{
     constructor(username){
+        
         this.username = username;
-
+        
     }
     logMe(){
         console.log(`username is ${this.username}`);
-        
     }
 }
 class teacher extends user{
